@@ -9,6 +9,7 @@ build/
 
 # Data files (downloaded automatically by PyTorch Geometric)
 data/
+*.ppk
 
 # Results and outputs
 results/
