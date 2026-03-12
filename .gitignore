@@ -6,6 +6,7 @@ __pycache__/
 dist/
 build/
 *.egg
+*.so
 
 # Data files (downloaded automatically by PyTorch Geometric)
 data/
@@ -32,3 +33,13 @@ Thumbs.db
 .env
 .venv/
 venv/
+env/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy / pytype
+.mypy_cache/
+.pytype/
